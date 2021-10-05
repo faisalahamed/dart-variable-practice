@@ -1,10 +1,15 @@
-import 'package:one/int.dart' as one;
-import 'package:one/list_type.dart';
-import 'package:one/map_type.dart';
-import 'package:one/runes_type.dart';
-import 'package:one/set_type.dart';
-import 'package:one/spread_operator.dart';
-import 'package:one/string.dart';
+import 'package:one/functions/annonymous_function.dart';
+import 'package:one/functions/function_type.dart';
+import 'package:one/functions/parameters.dart';
+import 'package:one/others/ternary.dart';
+import 'package:one/variable/int.dart' as one;
+import 'package:one/variable/is_as.dart';
+import 'package:one/variable/list_type.dart';
+import 'package:one/variable/map_type.dart';
+import 'package:one/variable/runes_type.dart';
+import 'package:one/variable/set_type.dart';
+import 'package:one/variable/spread_operator.dart';
+import 'package:one/variable/string.dart';
 
 void main(List<String> arguments) {
   // one.integerType();
@@ -13,5 +18,12 @@ void main(List<String> arguments) {
   // spreadOperator();
   // setType();
   // mapType();
-  runesType();
+  // runesType();
+
+  // Function
+  // functionType();
+  // annonymousFunction();
+  // parameters();
+  // isAs();
+  ternary();
 }
