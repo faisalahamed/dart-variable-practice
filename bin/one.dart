@@ -12,7 +12,7 @@ import 'package:one/variable/spread_operator.dart';
 import 'package:one/variable/string.dart';
 
 void main(List<String> arguments) {
-  // one.integerType();
+  one.integerType();
   // stringType();
   // listType();
   // spreadOperator();
@@ -25,5 +25,5 @@ void main(List<String> arguments) {
   // annonymousFunction();
   // parameters();
   // isAs();
-  ternary();
+  // ternary();
 }
