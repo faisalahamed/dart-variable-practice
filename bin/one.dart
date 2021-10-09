@@ -13,6 +13,7 @@ import 'package:one/variable/string.dart';
 
 void main(List<String> arguments) {
   one.integerType();
+  
   // stringType();
   // listType();
   // spreadOperator();
